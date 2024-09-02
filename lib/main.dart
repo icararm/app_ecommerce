@@ -165,7 +165,6 @@ class ProductGrid extends StatelessWidget {
   }
 }
 
-// teste
 
 class ProductDetailScreen extends StatelessWidget {
   @override
@@ -212,3 +211,4 @@ class ProductDetailScreen extends StatelessWidget {
   }
 }
 
+//testando
