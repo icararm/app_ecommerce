@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'product_detail_screen.dart';
+import 'cart_screen.dart';
 import 'search_screen.dart';
 import '../widgets/product_grid.dart';
 import 'profile_screen.dart';
@@ -16,10 +16,9 @@ class _HomeScreenState extends State<HomeScreen> {
   static final List<Widget> _pages = <Widget>[
     ProductGrid(),
     SearchScreen(),
-    Center(child: Text('Favorites Page')), // Atualize com a tela de Favoritos se tiver
-    Center(child: Text('Cart Page')), // Atualize com a tela de Carrinho se tiver
-    ProfileScreen(),
     FavoritesScreen(),
+    CartScreen(),
+    ProfileScreen(),
   ];
 
   void _onItemTapped(int index) {

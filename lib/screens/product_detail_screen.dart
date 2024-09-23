@@ -33,7 +33,7 @@ class ProductDetailScreen extends StatelessWidget {
               onPressed: () {
                 // Adicionar à sacola ou ação semelhante
               },
-              child: Text('Adicionar à Sacola'),
+              child: Text('Adicionar ao carrinho'),
               style: ElevatedButton.styleFrom(
                 minimumSize: Size(double.infinity, 50),
               ),
